@@ -1,0 +1,41 @@
+.about-inner {
+    margin: 50px 0px;
+    .container {
+        .inner-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .content-container {
+                width: 770px;
+                .des {
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                    color: $t-color;
+                    line-height: 1.5;
+                    span {
+                        font-size: 20px;
+                        color: green;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include custom_max(540px) {
+    .about-inner {
+        .container {
+            .inner-row {
+                .content-container {
+                    width: 270px;
+                    .des {
+                        font-size: 14px;
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

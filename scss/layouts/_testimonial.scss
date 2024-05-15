@@ -1,0 +1,134 @@
+.testimonial {
+    padding: 80px 0;
+    background-color: $primaryColor;
+    .testi-title {
+        text-align: center;
+        margin-bottom: 40px;
+        h3 {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            color: $white;
+        }
+    }
+    .testi-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .testi-block {
+            flex: 0 0 calc(100% / 3 - 20px);
+            margin: 0 10px;
+            text-align: center;
+            object-fit: cover;
+            object-position: center;
+            padding: 40px 20px;
+            background-color: $t-color;
+            border: 1px solid $t-color;
+            img {
+                border-radius: 100%;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+                max-width: 100px;
+                margin: auto;
+                object-position: center;
+                object-fit: contain;
+            }
+            .cmnt {
+                h4 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: $black;
+                    padding: 20px 0;
+                }
+                .star-icon {
+                    i {
+                        padding: 0 2px;
+                        color: $primaryColor;
+                    }
+                }
+                p {
+                    padding: 20px 0;
+                    color: $black;
+                }
+                .client-detail {
+                    h6 {
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: $black;
+                    }
+                    p {
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @include custom_max(991px) {
+//     .testimonial {
+//         padding: 80px 0;
+//         .testi-title {
+//             text-align: center;
+//             margin-bottom: 40px;
+//             h3 {
+//                 font-size: 36px;
+//                 font-weight: 700;
+//                 letter-spacing: 0.02em;
+//                 color: $primaryColor;
+//             }
+//         }
+//         .testi-wrapper {
+//             display: flex;
+//             flex-direction: row;
+//             align-items: center;
+//             .testi-block {
+//                 flex: 0 0 calc(100% / 2 - 20px);
+//                 margin: 0 10px;
+//                 text-align: center;
+//                 object-fit: cover;
+//                 object-position: center;
+//                 padding: 40px 20px;
+//                 background-color: lighten($t-color, 0.3);
+//                 img {
+//                     border-radius: 100%;
+//                     -webkit-border-radius: 100%;
+//                     -moz-border-radius: 100%;
+//                     -ms-border-radius: 100%;
+//                     -o-border-radius: 100%;
+//                     max-width: 100px;
+//                     margin: auto;
+//                 }
+//                 .cmnt {
+//                     h4 {
+//                         font-size: 20px;
+//                         font-weight: 600;
+//                         color: $black;
+//                         padding: 20px 0;
+//                     }
+//                     .star-icon {
+//                         i {
+//                             padding: 0 2px;
+//                             color: $primaryColor;
+//                         }
+//                     }
+//                     p {
+//                         padding: 20px 0;
+//                     }
+//                     .client-detail {
+//                         h6 {
+//                             font-size: 18px;
+//                             font-weight: 500;
+//                             color: $black;
+//                         }
+//                         p {
+//                             padding: 10px 0;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

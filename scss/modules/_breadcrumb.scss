@@ -1,0 +1,34 @@
+.breadcrumb {
+    background: url('../images/breadcrumb.jpg') no-repeat center bottom;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 8em;
+    .title {
+        h1 {
+            color: $white;
+            font-size: 38px;
+            font-weight: 700;
+        }
+        .breadcrumb-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            list-style: none;
+            margin-left: 0;
+            padding: 0;
+            li {
+                color: $t-color;
+                font-size: 18px;
+                font-weight: 700;
+                margin-top: 20px;
+                margin-right: 10px;
+                a {
+                    color: $white;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

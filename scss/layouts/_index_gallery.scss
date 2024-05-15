@@ -1,0 +1,60 @@
+                    .gallery {
+                        .gallery-image-wrapper {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            .images {
+                                flex: 0 0 25%;
+                                border: 6px solid $white;
+                                height: 550px;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                            &.half {
+                                .images {
+                                    flex: 0 0 50%;
+                                }
+                            }
+                            &.third {
+                                .images {
+                                    flex: 0 0 33%;
+                                }
+                            }
+                        }
+                    }
+                    
+                    @include custom_max(991px) {
+                        .gallery {
+                            .gallery-image-wrapper {
+                                .images {
+                                    border: 4px solid $white;
+                                    height: 350px;
+                                }
+                            }
+                        }
+                    }
+                    
+                    @include custom_max(767px) {
+                        .gallery {
+                            .gallery-image-wrapper {
+                                .images {
+                                    border: 4px solid $white;
+                                    height: 250px;
+                                }
+                            }
+                        }
+                    }
+                    
+                    @include custom_max(576px) {
+                        .gallery {
+                            .gallery-image-wrapper {
+                                .images {
+                                    border: 4px solid $white;
+                                    height: 200px;
+                                }
+                            }
+                        }
+                    }

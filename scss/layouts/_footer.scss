@@ -1,0 +1,164 @@
+footer {
+    background-color: $white;
+    padding: 70px 0 35px 0;
+    .footer-block {
+        .logo {
+            margin-top: -20px;
+            text-align: center;
+            img {
+                max-width: 90px;
+            }
+        }
+        .footer-about-desc {
+            text-align: center;
+        }
+        .footer-title {
+            margin-bottom: 20px;
+            position: relative;
+            h6 {
+                font-size: 16px;
+                font-weight: 600;
+                color: $black;
+                padding: 0;
+                position: relative;
+                padding-bottom: 5px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 2px;
+                    width: 15px;
+                    background-color: $primaryColor;
+                }
+            }
+        }
+        ul {
+            li {
+                .quick-link {
+                    color: $t-color;
+                    margin-bottom: 5px;
+                    transition: 0.5s ease-in-out;
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+                .footer-cntct {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    line-height: 1.5;
+                    transition: 0.5s ease-in-out;
+                    margin-bottom: 5px;
+                    i {
+                        font-size: 12px;
+                        color: $primaryColor;
+                        padding-right: 4px;
+                    }
+                    &:hover {
+                        p {
+                            color: $primaryColor;
+                        }
+                    }
+                }
+            }
+        }
+        .quote-block {
+            padding: 5px 0;
+            text-align: center;
+            h6 {
+                font-size: 20px;
+                color: $primaryColor;
+                font-weight: 600;
+            }
+            p {
+                font-size: 16px;
+                color: $t-color;
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    padding: 10px 0;
+    .bottom-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .block {
+            display: flex;
+            flex-direction: row;
+            a {
+                padding: 0 4px;
+                color: $primaryColor;
+            }
+        }
+        .develop {
+            display: flex;
+            flex-direction: row;
+            a {
+                padding: 0 4px;
+                color: $primaryColor;
+            }
+        }
+    }
+}
+
+@include custom_max(991px) {
+    footer {
+        padding: 70px 0 35px 0;
+        .footer-block {
+            text-align: center;
+            margin-bottom: 20px;
+            .logo {
+                margin-top: 0;
+                img {
+                    max-width: 70px;
+                }
+            }
+            .footer-title {
+                margin-bottom: 10px;
+                text-align: center;
+                h6 {
+                    display: inline-block;
+                }
+            }
+            ul {
+                text-align: center;
+                li {
+                    .footer-cntct {
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include custom_max(767px) {
+    .footer-bottom {
+        .bottom-wrapper {
+            flex-direction: column;
+            .block {
+                justify-content: center;
+            }
+            .develop {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@include custom_max(420px) {
+    .footer-bottom {
+        .bottom-wrapper {
+            .develop {
+                justify-content: center;
+                flex-direction: column;
+                a {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

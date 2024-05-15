@@ -1,0 +1,44 @@
+.service {
+
+
+    .blur-hero {
+        top: 20%;
+        left: 0%;
+    }
+
+    .service-hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hero-service-content {
+            width: 40%;
+
+
+        }
+
+        .hero-service-collection {
+            width: 56%;
+
+            .service-item {
+                width: 45%;
+                border: 1px solid $t-color;
+                padding: 15px;
+                margin-right: 10px;
+                border-radius: 10px;
+
+                img {
+                    width: 70px;
+                    margin: auto;
+                }
+                .common-overview-title{
+                    padding: 20px 0px;
+                }
+            }
+        }
+
+
+
+
+    }
+}
