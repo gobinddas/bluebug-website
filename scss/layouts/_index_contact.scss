@@ -1,0 +1,27 @@
+.contact {
+
+
+    .blur-hero {
+        top: -20%;
+        right: 0%;
+    }
+
+    .contact-hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hero-contact-image {
+            width: 48%;
+
+        }
+
+        .hero-contact-content {
+            width: 48%;
+
+          
+        }
+
+
+    }
+}

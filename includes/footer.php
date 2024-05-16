@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="containers">
         <div class="footer-wrapper">
             <div class="row">
                 <div class="col-lg-4 col-md-6 ">
@@ -85,7 +85,7 @@
 
 
 <div class="footer-bottom">
-    <div class="container">
+    <div class="containers">
         <div class="bottom-wrapper">
             <div class="block">
                 <p>© Copyright <?php echo date('Y');?> </p>

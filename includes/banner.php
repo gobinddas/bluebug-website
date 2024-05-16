@@ -1,7 +1,7 @@
 <section id="banner" class="banner">
 
     <div class="blur-hero"></div>
-    <div class="container">
+    <div class="containers">
 
         <div class="hero-banner">
             <div class="hero-baner-content">

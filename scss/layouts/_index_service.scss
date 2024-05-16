@@ -22,14 +22,14 @@
 
             .service-item {
                 width: 45%;
-                border: 1px solid $t-color;
                 padding: 15px;
-                margin-right: 10px;
+                margin: 20px;
                 border-radius: 10px;
+                background-color: white;
+                box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 
                 img {
                     width: 70px;
-                    margin: auto;
                 }
                 .common-overview-title{
                     padding: 20px 0px;

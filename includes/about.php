@@ -1,7 +1,7 @@
 <section id="about" class="about">
 
     <div class="blur-hero"></div>
-    <div class="container">
+    <div class="containers">
 
         <div class="about-hero">
             <div class="hero-about-image">

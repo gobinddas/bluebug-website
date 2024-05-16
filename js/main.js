@@ -18,7 +18,7 @@ $(document).ready(function() {
         prevArrow: "<span class='slick-arrow left'><i class='icon icon-arrow-left'></i></slick>",
         nextArrow: "<span class='slick-arrow right'><i class='icon icon-arrow-right'></i></slick>",
         slidesToShow: 2,
-        dots: true,
+        dots: false,
         autoplaySpeed: 3000
     });
 
