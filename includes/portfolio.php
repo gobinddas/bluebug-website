@@ -1,7 +1,7 @@
 <section id="portfolio" class="portfolio">
 
     <div class="blur-hero"></div>
-    <div class="containers">
+    <div class="container">
 
         <div class="portfolio-hero">
 

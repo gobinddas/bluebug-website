@@ -42,3 +42,84 @@
 
     }
 }
+
+
+
+// responsive 
+
+@include custom_max(1200px) {
+
+    .service {
+
+
+        
+    
+        .service-hero {
+            
+            flex-direction: column;
+    
+            .hero-service-content {
+                width: 100%;
+    
+    
+            }
+    
+            .hero-service-collection {
+                width: 100%;
+    
+                .service-item {
+                    width: 90%;
+                    margin: 20px;
+                   
+    
+                   
+                }
+            }
+    
+    
+    
+    
+        }
+    }
+    
+
+}
+
+
+@include custom_max(576px) {
+
+    .service {
+
+
+        
+    
+        .service-hero {
+            
+            flex-direction: column;
+    
+            .hero-service-content {
+                width: 100%;
+    
+    
+            }
+    
+            .hero-service-collection {
+                width: 100%;
+    
+                .service-item {
+                    width: 100%;
+                   
+                   
+    
+                   
+                }
+            }
+    
+    
+    
+    
+        }
+    }
+    
+
+}

@@ -1,7 +1,7 @@
 <section id="contact" class="contact">
 
     <div class="blur-hero"></div>
-    <div class="containers">
+    <div class="container">
 
         <div class="contact-hero">
             <div class="hero-contact-image">

@@ -13,6 +13,7 @@
 
         .hero-baner-content {
             width: 48%;
+            margin: 20px 0px;
             .baner-title{
                 font-size: 58px;
                 span{
@@ -27,3 +28,60 @@
         }
     }
 }
+
+
+
+// responsive 
+@include custom_max(992px) {
+    .banner {
+   
+        padding: 60px 0px 40px 0px;
+    
+      
+        .hero-banner {
+         
+            flex-direction: column;
+    
+            .hero-baner-content {
+                width: 100%;
+                margin: 20px 0px;
+                .baner-title{
+                    font-size: 32px;
+                   
+                }
+            }
+    
+            .hero-banner-image {
+                width: 80%;
+    
+            }
+        }
+    }
+}
+
+
+@include custom_max(576px) {
+    .banner {
+   
+        padding: 70px 0px 30px 0px;
+    
+      
+        .hero-banner {
+         
+            flex-direction: column;
+    
+            .hero-baner-content {
+                
+                .baner-title{
+                    font-size: 28px;
+                   
+                }
+            }
+    
+            .hero-banner-image {
+                width: 100%;
+    
+            }
+        }
+    }
+}   

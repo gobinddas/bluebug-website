@@ -28,10 +28,9 @@ header {
             .navbar-nav {
                 .nav-item {
                     .nav-link {
-                        margin: 10px;
-                        padding: 0 15px;
+                        padding: 0 10px;
                         color: $black;
-                        font-weight: 600;
+                        font-weight: 500;
                         text-transform: capitalize;
                         font-size: 16px;
 
@@ -67,8 +66,50 @@ header {
     }
 }
 
+// break points 
+
 @include custom_max(992px) {
-   
+    header {
+        
+    
+        .navbar {
+            padding: 10px 0px;
+    
+            .navbar-brand {
+                figure {
+                    max-width: 150px;
+    
+                }
+            }
+    
+            
+            &-collapse {
+                background-color: $white;
+                margin-top: 15px;
+                padding: 10px;
+                border-radius: 10px;
+    
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            text-align: start;
+    
+    
+                        }
+    
+                       
+    
+                       
+                    }
+                }
+            }
+            .nav-btn{
+                display: none;
+            }
+        }
+    
+       
+    }
 }
 
 @include custom_max(767px) {

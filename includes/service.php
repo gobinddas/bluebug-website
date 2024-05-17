@@ -1,7 +1,7 @@
 <section id="service" class="service section-padding">
 
     <div class="blur-hero"></div>
-    <div class="containers">
+    <div class="container">
 
         <div class="service-hero">
             <div class="hero-service-content">

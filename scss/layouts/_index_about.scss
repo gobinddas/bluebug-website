@@ -1,10 +1,7 @@
 .about {
 
 
-    .blur-hero {
-        top: -20%;
-        right: 0%;
-    }
+    
 
     .about-hero {
         display: flex;
@@ -30,4 +27,89 @@
 
 
     }
+}
+
+
+
+// responsive 
+
+
+@include custom_max(992px) {
+
+
+    .about {
+
+
+       
+    
+        .about-hero {
+            flex-direction: column-reverse;
+
+    
+            .hero-about-image {
+                width: 80%;
+                margin-top: 20px;
+
+    
+            }
+    
+            .hero-about-content {
+                width: 100%;
+    
+              .overview-item{
+               
+              
+               padding: 15px 0px;
+            
+              
+              }
+            }
+    
+    
+        }
+    }
+    
+
+
+}
+
+
+
+@include custom_max(576px) {
+
+
+    .about {
+
+
+       
+    
+        .about-hero {
+            flex-direction: column-reverse;
+
+    
+            .hero-about-image {
+                width: 100%;
+                
+
+    
+            }
+    
+            .hero-about-content {
+                width: 100%;
+    
+              .overview-item{
+               
+              
+               padding: 15px 0px;
+            
+              
+              }
+            }
+    
+    
+        }
+    }
+    
+
+
 }

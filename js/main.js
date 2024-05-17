@@ -12,14 +12,25 @@ $(document).ready(function() {
 
 
     $(".hero-service-collection").slick({
-        centerMode: true,
+        centerMode: false,
         arrows: false,
         autoplay: true,
         prevArrow: "<span class='slick-arrow left'><i class='icon icon-arrow-left'></i></slick>",
         nextArrow: "<span class='slick-arrow right'><i class='icon icon-arrow-right'></i></slick>",
         slidesToShow: 2,
         dots: false,
-        autoplaySpeed: 3000
+        autoplaySpeed: 2000,
+        responsive: [
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+            }
+        },
+    ]
     });
 
     // magnific popup

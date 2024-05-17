@@ -9,7 +9,6 @@
 //Index Section Style
 @import "layouts/header";
 @import "layouts/index_banner";
-@import "layouts/index_gallery";
 @import "layouts/index_about";
 @import "layouts/index_service";
 @import "layouts/index_portfolio";
@@ -17,5 +16,5 @@
 @import "layouts/index_contact";
 @import "layouts/footer";
 // main pages style
-@import "layouts/about";
-@import "layouts/contact";
+@import "layouts/page_about";
+@import "layouts/page_contact";

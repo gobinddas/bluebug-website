@@ -23,14 +23,10 @@ $co        =    "BlueBug Software";
     <!-- Boostrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <!-- FontAwesome version 4.7 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 
-    <!-- FontAwesome version 5.8 -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-
-    <!-- FontAwesome version 5.10 -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <!-- FontAwesome version 6.5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- Simple Line Icons -->
     <link rel="stylesheet" href="css/simple-line-icons.css">
@@ -46,7 +42,7 @@ $co        =    "BlueBug Software";
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/logo2.png">
+    <link rel="shortcut icon" href="./images/favicon.ico">
     <style>
 
     </style>
@@ -57,7 +53,7 @@ $co        =    "BlueBug Software";
 
 <body>
     <header class="header fixed-header">
-        <div class="containers">
+        <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="./">
                     <figure>
@@ -95,6 +91,11 @@ $co        =    "BlueBug Software";
                                             } ?>">
                             <a href="portfolio" class="nav-link">Portfolio</a>
                         </li>
+                        <li class="nav-item <?php if ($page == 'carrier') {
+                                                echo 'active';
+                                            } ?>">
+                            <a href="carrier" class="nav-link">Carrier</a>
+                        </li>
 
                         <li class="nav-item <?php if ($page == 'Blogs') {
                                                 echo 'active';
@@ -105,7 +106,7 @@ $co        =    "BlueBug Software";
 
                     </ul>
                 </div>
-                <div><a class="btn-dark" href="contact">Contact Now</a></div>
+                <div class="nav-btn"><a class="btn-dark" href="contact">Contact Now</a></div>
             </nav>
         </div>
     </header>

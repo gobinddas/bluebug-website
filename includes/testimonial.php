@@ -1,7 +1,7 @@
 <section id="testimonial" class="testimonial section-padding">
 
     <div class="blur-hero"></div>
-    <div class="containers">
+    <div class="container">
 
         <div class="testimonial-hero">
             <div class="hero-testimonial-content">

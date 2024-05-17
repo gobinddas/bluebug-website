@@ -7,7 +7,7 @@
 
 
 	<div class="thanks">
-		<div class="containers">
+		<div class="container">
 			<div class="message">
 				<h1>Thank you !</h1>
 				<p>The form has been submitted successfully. <span>Return to our homepage.</span></p>

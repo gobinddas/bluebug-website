@@ -69,3 +69,60 @@
 
     }
 }
+
+
+// responsive 
+
+
+@include custom_max(992px) {
+
+
+    .testimonial {
+
+       
+       
+    
+        .testimonial-hero {
+           
+            align-items: start;
+            flex-direction: column;
+    
+            .hero-testimonial-content {
+                width: 100%;
+    
+    
+            }
+    
+            .hero-testimonial-collection {
+                width: 100%;
+    
+                .testimonial-item {
+                    width: 80%;
+                    flex-direction: column;
+    
+                    img {
+                        width: 40px;
+                        height: 40px;
+                       
+                        margin: 10px;
+                    }
+                  p{
+                    font-size: 14px;
+                    
+                  }
+                  h2{
+                    font-size: 14px;
+    
+                  }
+                }
+               
+            }
+    
+    
+    
+    
+        }
+    }
+    
+
+}

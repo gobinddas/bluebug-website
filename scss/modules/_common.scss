@@ -22,11 +22,14 @@ img {
 }
 
 p {
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 a {
-    color: #000;
+    color: $t-color;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: $inter;
     text-decoration: none;
     display: block;
     overflow: hidden;
@@ -38,6 +41,7 @@ a {
         font-style: normal;
         cursor: pointer;
         outline: none;
+        color: $primaryColor;
     }
 }
 
@@ -71,26 +75,7 @@ a {
     }
 }
 
-.mobile-call-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    text-align: center;
-    z-index: 99;
-    display: none;
-    @include custom_max(767px) {
-        display: block;
-    }
-    a {
-        font-size: 20px;
-        height: 45px;
-        width: 45px;
-        line-height: 45px;
-        color: #fff;
-        background-color: rgba($primaryColor, 0.7);
-        border-radius: 100%;
-    }
-}
+
 
 .slick-dots {
     position: absolute;
