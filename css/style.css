@@ -916,142 +916,53 @@ footer .footer-block .social-link a:hover i {
     font-size: 11px;
   }
 }
-.contact-inner {
-  background-image: url("../images/land-mopping1.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
+.page-contact {
+  padding: 100px 0px 0px 0px;
 }
-.contact-inner .double-row {
-  width: 100%;
+.page-contact .blur-hero {
+  top: 30%;
+}
+.page-contact .hero-page-contact {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.contact-inner .double-row .map {
-  width: 50%;
+.page-contact .hero-page-contact .hero-page-contact-content {
+  width: 48%;
+  margin: 20px 0px;
 }
-.contact-inner .double-row .map iframe {
-  height: 100%;
+.page-contact .hero-page-contact .hero-page-contact-content .hero-contact-image {
   width: 100%;
 }
-.contact-inner .double-row .info {
-  width: 50%;
+.page-contact .hero-page-contact .hero-page-contact-form {
+  width: 38%;
 }
-.contact-inner .double-row .info .inner-info {
-  height: 100%;
-  padding: 50px;
-  background-color: #152435;
-}
-.contact-inner .double-row .info .inner-info .heading {
-  text-align: center;
-  color: #fff;
-  border-bottom: 3px solid #fff;
-  padding-bottom: 5px;
-}
-.contact-inner .double-row .info .inner-info .des {
-  font-size: 20px;
-  color: white;
-  margin-top: 20px;
-  cursor: pointer;
-}
-.contact-inner .double-row .info .inner-info .des:hover span {
-  text-decoration: underline;
-}
-
-.contact-form {
-  padding: 80px 0;
-  background-image: url("../images/service1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-.contact-form::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+.page-contact .hero-page-contact .hero-page-contact-form form input, .page-contact .hero-page-contact .hero-page-contact-form form textarea {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-.contact-form .form {
-  padding: 60px;
-  background-color: rgba(44, 53, 58, 0.8);
-  width: 600px;
-}
-.contact-form .form .title {
-  padding-bottom: 40px;
-}
-.contact-form .form .title h4 {
-  font-size: 36px;
-  color: #fff;
-  line-height: 1.3;
-  letter-spacing: 0.03em;
-  word-spacing: 0.08em;
-  font-weight: 800;
-  text-align: center;
-}
-.contact-form .form .form-group {
-  display: flex;
-  gap: 20px;
-}
-.contact-form .form .form-group .form-control {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  color: #010101;
-  resize: none;
-}
-.contact-form .form .form-group .label {
-  font-size: 16px;
-  color: #fff;
-  margin-bottom: 0;
-}
-.contact-form .form .quote-submission {
-  padding: 10px 25px;
-  margin: 10px 0;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  background-color: #fff;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000000;
+  border-right: 1px solid #000000;
+  padding: 7px;
+  background: transparent;
 }
 
 @media screen and (max-width: 768px) {
-  .contact-inner .double-row {
+  .page-contact {
+    padding: 70px 0px 0px 0px;
+  }
+  .page-contact .hero-page-contact {
     flex-direction: column;
   }
-  .contact-inner .double-row .map {
+  .page-contact .hero-page-contact .hero-page-contact-content {
     width: 100%;
   }
-  .contact-inner .double-row .info {
+  .page-contact .hero-page-contact .hero-page-contact-content .hero-contact-image {
+    display: none;
+  }
+  .page-contact .hero-page-contact .hero-page-contact-form {
     width: 100%;
-  }
-  .contact-inner .double-row .info .inner-info {
-    height: 100%;
-    padding: 30px;
-  }
-  .contact-form .form {
-    padding: 20px;
-    width: 100%;
-  }
-  .contact-form .form .title {
-    padding-bottom: 20px;
-  }
-  .contact-form .form .title h4 {
-    font-size: 28px;
-  }
-  .contact-form .form .select-bar {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  .contact-form .form .form-group {
-    flex-direction: column;
   }
 }
 
