@@ -10,7 +10,7 @@
                 <div><a class="btn-light" href="contact">Explore More</a></div>
             </div>
             <div class="hero-banner-image">
-                <img src="./images/banner1.png" alt="">
+                <img src="./images/banner2.png" alt="">
             </div>
         </div>
 
