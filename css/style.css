@@ -916,6 +916,68 @@ footer .footer-block .social-link a:hover i {
     font-size: 11px;
   }
 }
+.about-page {
+  padding: 100px 0px 0px 0px;
+}
+.about-page .blur-hero {
+  top: 10%;
+}
+.about-page .blur-hero2 {
+  top: 30%;
+  right: 0px;
+}
+.about-page .blur-hero3 {
+  top: 60%;
+  left: 0;
+}
+.about-page .blur-hero4 {
+  top: 90%;
+  right: 1px;
+}
+.about-page .hero-about-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-page .hero-about-page .hero-about-page-content {
+  width: 55%;
+  margin: 20px 0px;
+}
+.about-page .hero-about-page .hero-about-page-image {
+  width: 40%;
+}
+.about-page .small-title {
+  font-weight: 700;
+  color: #2C353A;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.about-page .working-process h6 {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .about-page {
+    padding: 70px 0px 0px 0px;
+  }
+  .about-page .hero-about-page {
+    flex-direction: column;
+  }
+  .about-page .hero-about-page .hero-about-page-content {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .about-page .hero-about-page .hero-about-page-image {
+    width: 100%;
+    text-align: center !important;
+  }
+  .about-page .hero-about-page .hidden-img {
+    display: none;
+  }
+  .about-page .working-process h6 {
+    margin-bottom: 30px;
+  }
+}
 .page-contact {
   padding: 100px 0px 0px 0px;
 }
