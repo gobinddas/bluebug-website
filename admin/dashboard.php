@@ -1,5 +1,5 @@
 <?php
- include('sidebar/sidebar.php');
+ include('sidebar.php');
 ?>
 <!-- Page Content  -->
 <div id="content" class="p-4 p-md-5 pt-5">
