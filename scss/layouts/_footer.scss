@@ -1,0 +1,161 @@
+footer {
+    // background-color: aquamarine;
+
+    .footer-block {
+        .logo {
+            margin-bottom: 20px;
+
+            img {
+                width: 200px;
+
+            }
+        }
+
+        .common-overview-title {
+            margin-bottom: 20px;
+
+        }
+
+        ul {
+            li {
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                line-height: 1.5;
+                transition: 0.5s ease-in-out;
+                margin-bottom: 5px;
+
+            }
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-top: 20px;
+
+            a {
+                width: 40px;
+                height: 40px;
+                border: 2px solid $black;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 20px;
+                transition: 0.3s ease-in-out;
+
+                i {
+                    font-size: 20px;
+                    color: $black;
+                    transition: 0.1s ease-in-out;
+                }
+
+                &:hover {
+                    border: 2px solid $primaryColor;
+
+                    i {
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.footer-bottom {
+    padding-bottom: 20px;
+
+    .block {
+        display: flex;
+        align-items: center;
+
+        p {
+            color: $t-color;
+            font-weight: 600;
+            font-size: 14px;
+            font-family: $poppins;
+        }
+
+        a {
+            color: $primaryColor;
+            font-weight: 600;
+            font-size: 14px;
+            font-family: $poppins;
+            margin: 0px 2px;
+        }
+    }
+
+
+}
+
+@include custom_max(991px) {
+
+    .footer-block {
+        margin-top: 30px;
+        .logo {
+            margin-bottom: 20px;
+
+            img {
+                width: 150px;
+
+            }
+        }
+
+        .common-overview-title {
+            margin-bottom: 10px !important;
+
+        }
+
+        
+
+        .social-link {
+           
+
+            a {
+                width: 30px;
+                height: 30px;
+               
+
+                i {
+                    font-size: 18px;
+                  
+                }
+
+                
+            }
+        }
+
+    }
+
+    .footer-bottom {
+        padding-bottom: 20px;
+
+        .block {
+           
+            justify-content: center;
+
+            p {
+                
+                font-size: 11px;
+            }
+
+            a {
+                
+                font-size: 11px;
+                
+            }
+        }
+
+
+    }
+
+
+}
+
+
+@include custom_max(767px) {}
+
+@include custom_max(420px) {}

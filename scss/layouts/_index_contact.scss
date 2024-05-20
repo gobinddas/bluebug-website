@@ -1,0 +1,86 @@
+.contact {
+
+
+    .blur-hero {
+        top: -20%;
+        right: 0%;
+    }
+
+    .contact-hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hero-contact-image {
+            width: 48%;
+
+        }
+
+        .hero-contact-content {
+            width: 48%;
+
+
+        }
+
+
+    }
+}
+
+
+// responsive 
+
+@include custom_max(992px) {
+
+    .contact {
+
+
+
+
+        .contact-hero {
+            align-items: start;
+            flex-direction: column-reverse;
+
+            .hero-contact-image {
+                width: 100%;
+
+            }
+
+            .hero-contact-content {
+                width: 80%;
+
+
+            }
+
+
+        }
+    }
+
+
+}
+
+
+
+@include custom_max(992px) {
+
+    .contact {
+
+
+
+
+        .contact-hero {
+           
+
+            
+
+            .hero-contact-content {
+                width: 100%;
+
+
+            }
+
+
+        }
+    }
+
+
+}

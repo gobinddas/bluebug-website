@@ -1,0 +1,20 @@
+@import "base/variables";
+@import "base/mixins";
+@import "modules/typography";
+@import "modules/buttons";
+@import "modules/scroll-top";
+@import "modules/common";
+@import "modules/components";
+@import "modules/breadcrumb";
+//Index Section Style
+@import "layouts/header";
+@import "layouts/index_banner";
+@import "layouts/index_about";
+@import "layouts/index_service";
+@import "layouts/index_portfolio";
+@import "layouts/index_testimonial";
+@import "layouts/index_contact";
+@import "layouts/footer";
+// main pages style
+@import "layouts/page_about";
+@import "layouts/page_contact";

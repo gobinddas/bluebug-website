@@ -1,0 +1,77 @@
+.page-contact {
+   
+    padding: 100px 0px 0px 0px;
+
+  .blur-hero{
+    top: 30%;
+
+  }
+    .hero-page-contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hero-page-contact-content {
+            width: 48%;
+            margin: 20px 0px;
+            .hero-contact-image {
+                width: 100%;
+    
+            }
+        }
+        .hero-page-contact-form{
+            width: 38%;
+            form{
+
+                input,textarea{
+                    width: 100%;
+                    margin-bottom: 20px;
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid $black;
+                    border-right: 1px solid $black;
+                    padding: 7px;
+                    background: transparent;
+                }
+            }
+        }
+
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+@include custom_max(768px) {
+    .page-contact {
+   
+        padding: 70px 0px 0px 0px;
+    
+      
+        .hero-page-contact {
+            
+            flex-direction: column;
+    
+            .hero-page-contact-content {
+                width: 100%;
+                .hero-contact-image {
+                    display: none;
+        
+                }
+            }
+            .hero-page-contact-form{
+                width: 100%;
+                
+            }
+    
+           
+        }
+    }
+    
+}   

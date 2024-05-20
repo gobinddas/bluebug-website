@@ -1,0 +1,122 @@
+section{
+  position: relative;
+}
+
+
+
+.section-padding{
+  padding: 80px 0px;
+}
+
+
+// common for section 
+.common-sub-heading{
+  font-size: 20px;
+  color: $primaryColor;
+  font-weight: 600;
+}
+.common-heading{
+  font-size: 38px;
+  color: $black;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.common-description {
+  font-size: 18px;
+  padding: 20px 0px;
+  line-height: 1.5;
+}
+
+
+.common-overview-title{
+  font-size: 22px;
+  color: $black;
+  font-weight: 600;
+}
+.common-overview-description{
+  font-size: 16px;
+
+}
+
+.small-title{
+  font-size: 16px;
+  color: $black;
+  font-weight: 600;
+}
+
+
+
+
+// common for section end 
+
+
+
+
+// common blur hero 
+
+.blur-hero{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #FF5723;
+  filter: blur(300px);
+  border-radius: 50%;
+z-index: -1;
+}
+
+
+
+
+
+@include custom_max(992px) {
+
+
+  
+  .section-padding{
+    padding: 40px 0px;
+  }
+  
+  
+  // common for section 
+  .common-sub-heading{
+    font-size: 16px;
+    
+  }
+  .common-heading{
+    font-size: 24px;
+   
+    padding-top: 10px;
+  }
+  .common-description {
+    font-size: 16px;
+    padding: 20px 0px;
+  }
+  
+  
+  .common-overview-title{
+    font-size: 18px;
+   
+  }
+  .common-overview-description{
+    font-size: 14px;
+  
+  }
+  
+  .small-title{
+    font-size: 14px;
+   
+  }
+  
+ 
+  
+  
+
+}
+
+@include custom_max(576px) {
+
+  .section-padding{
+    padding: 30px 0px;
+  }
+
+}
