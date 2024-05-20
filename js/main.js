@@ -10,7 +10,7 @@ $(document).ready(function() {
         else sticky.removeClass("fixed-header");
     });
 
-
+// service slider 
     $(".hero-service-collection").slick({
         centerMode: false,
         arrows: false,
@@ -33,51 +33,36 @@ $(document).ready(function() {
     ]
     });
 
-    // magnific popup
-    $('.gallery .gallery-magnific,.image-categories').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        closeOnContentClick: false,
-        closeBtnInside: false,
-        mainClass: 'mfp-with-zoom mfp-img-mobile',
-        gallery: {
-            enabled: true
-        },
-        zoom: {
-            enabled: true,
-        }
 
-    });
 
-    // testimonial slider
-    $('.testimonial .testi-wrapper').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        arrows: true,
-        prevArrow: "<span class='slick-arrow left'><img src='images/prev.png'></slick>",
-        nextArrow: "<span class='slick-arrow right'><img src='images/next.png'></slick>",
+    $(".top-articles").slick({
+        centerMode: false,
+        arrows: false,
         autoplay: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [{
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: false,
-                    dots: true,
-                }
-            },
-        ]
+        prevArrow: "<span class='slick-arrow left'><i class='icon icon-arrow-left'></i></slick>",
+        nextArrow: "<span class='slick-arrow right'><i class='icon icon-arrow-right'></i></slick>",
+        slidesToShow: 1,
+        dots: true,
+        autoplaySpeed: 4000
+        
     });
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     // Scroll Event (Go to Top on Click)
     //To scroll top
     $(window).scroll(function() {
