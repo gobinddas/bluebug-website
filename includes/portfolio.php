@@ -11,7 +11,7 @@
 
 
             </div>
-            <div class="hero-portfolio-image text-right">
+            <div class="hero-portfolio-image ">
                 <a class="btn-dark  " href="contact">Explore More</a>
             </div>
 
