@@ -94,7 +94,7 @@ $co        =    "BlueBug Software";
                         <li class="nav-item <?php if ($page == 'carrier') {
                                                 echo 'active';
                                             } ?>">
-                            <a href="carrier" class="nav-link">Carrier</a>
+                            <a href="carrier" class="nav-link">Carrer</a>
                         </li>
 
                         <li class="nav-item <?php if ($page == 'Blogs') {

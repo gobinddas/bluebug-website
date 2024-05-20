@@ -83,14 +83,14 @@
               </ul>
 	          </li>
 	          <li>
-              <a href="#">Inquiries</a>
+              <a href="inquiry.php">Inquiries</a>
 	          </li>
 	          <li>
-              <a href="#">Past Inquiries</a>
+              <a href="past_inquiries">Past Inquiries</a>
 	          </li>
 			 
 				<li>
-				<a href="#" style="color:#ff272A;">Logout</a>
+				<a href="logout.php" style="color:#ff272A;">Logout</a>
 				</li>
 			  
 			  

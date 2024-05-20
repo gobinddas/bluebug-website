@@ -8,7 +8,7 @@ $id = $_GET['id'];
 
 
 // delete the data
-$sql = "DELETE FROM inquiry WHERE id=$id";
+$sql = "DELETE FROM inquiries WHERE id=$id";
 
 $res = mysqli_query($conn, $sql);
 

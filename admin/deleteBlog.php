@@ -29,7 +29,7 @@ $res = mysqli_query($conn, $sql);
 
 if($res==true)
    {
-     header("Location: manage_blog.php");
+     header("Location: manage_blogs.php");
 }
 else{
      echo "ERROR...Failed to delete the data";

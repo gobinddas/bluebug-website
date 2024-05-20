@@ -53,9 +53,9 @@
                     <label for="fname" class="common-overview-title">Full Name</label><br>
                     <input type="text" class="common-overview-description" id="fname" name="name" placeholder="eg. John Smith"><br>
                     <label for="email" class="common-overview-title">Email</label><br>
-                    <input type="email" id="email" class="common-overview-description" name="email" placeholder="eg. John smith123@gmail.com"><br>
-                    <label for="contact" class="common-overview-title">Contact Number</label><br>
-                    <input type="text" id="contact" class="common-overview-description" name="phone" placeholder="+977 9808740455"><br>
+                    <input type="email" id="email" class="common-overview-description" name="email" placeholder="eg. John smith123@gmail.com"><br><p class="error"id="invalid_email"> </p>
+                    <label for="phone" class="common-overview-title">Contact Number</label><br>
+                    <input type="tel" id="phone" class="common-overview-description" name="phone" placeholder="+977 9808740455"maxlength="10"pattern="[0-9]{10}"><br><p class="error"id="invalid_phone"> </p>
                     <label for="message" class="common-overview-title">Whats your idea?</label><br>
                     <textarea name="message" rows="2" id="message" class="common-overview-description" placeholder="Tell us more about your project"></textarea>
                    <button class="btn-light">Let’s Start</button>

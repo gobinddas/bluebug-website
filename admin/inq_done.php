@@ -7,8 +7,8 @@ $id = $_GET['id'];
 
 
 
-// delete the data
-$sql = "UPDATE inquiry SET
+
+$sql = "UPDATE inquiries SET
 status = 'completed'
 WHERE id=$id";
 
