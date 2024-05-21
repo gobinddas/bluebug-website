@@ -37,8 +37,11 @@ include 'includes/header.php'; ?>
             ?>
             <div class="articles-img"><img src="<?php echo SITEURL; ?>admin/blog/img/<?php echo $blogImage ?>" alt=""></div>
             <p class="date"><?php echo $created_on ?></p>
-            <h2 class="common-heading"><?php echo $title ?></h2>
-            <p class="common-overview-description "><?php echo $content ?></p>
+            <h2 class="common-heading"><?php echo ucfirst($title) ?></h2>
+            <div class="content">
+
+                <?php echo $content ?>
+            </div>
 
         </div>
 
