@@ -24,6 +24,13 @@ include 'includes/header.php'; ?>
                     <p class="common-description"> To rapidly learn a programming language, focus on fundamentals, set clear goals, practice consistently, leverage interactive resources like tutorials and coding challenges, seek guidance from experienced mentors, collaborate on projects, and stay persistent. Embrace a growth mindset, break down complex concepts into manageable chunks, and regularly review and reinforce your understanding. By immersing yourself in coding tasks and embracing continuous learning, you can swiftly master programming languages and become a proficient developer.</p>
                 </div>
             </div>
+            <div class="articles-items">
+                <div class="articles-img"><img src="./images/article2.jpg" alt=""></div>
+                <div class="articles-content">
+                    <h2 class="common-heading">Mastering Programming: Accelerated Learning</h2>
+                    <p class="common-description"> To rapidly learn a programming language, focus on fundamentals, set clear goals, practice consistently, leverage interactive resources like tutorials and coding challenges, seek guidance from experienced mentors, collaborate on projects, and stay persistent. Embrace a growth mindset, break down complex concepts into manageable chunks, and regularly review and reinforce your understanding. By immersing yourself in coding tasks and embracing continuous learning, you can swiftly master programming languages and become a proficient developer.</p>
+                </div>
+            </div>
             
 
         </div>
