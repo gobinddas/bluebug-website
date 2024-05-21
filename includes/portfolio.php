@@ -11,9 +11,9 @@
 
 
             </div>
-            <div class="hero-portfolio-image ">
+            <!-- <div class="hero-portfolio-image ">
                 <a class="btn-dark  " href="contact">Explore More</a>
-            </div>
+            </div> -->
 
         </div>
 

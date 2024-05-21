@@ -7,32 +7,44 @@
     }
 
     .service-hero {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .hero-service-content {
-            width: 40%;
 
 
-        }
+
 
         .hero-service-collection {
-            width: 56%;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
 
             .service-item {
-                width: 45%;
-                padding: 15px;
-                margin: 20px;
+                width: calc((100% / 3) - 20px);
+                /* Subtract the gap */
+                padding: 25px;
                 border-radius: 10px;
                 background-color: white;
                 box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.075);
+                transition: 0.3s ease-out;
 
-                img {
-                    width: 70px;
+                h6 {
+
+                    font-size: 45px;
+
+
+                    color: rgb(255, 255, 255);
+
+                    font-weight: 600;
+                    -webkit-text-stroke: 2px $primaryColor;
                 }
-                .common-overview-title{
-                    padding: 20px 0px;
+
+                .common-overview-title {
+                    padding: 10px 0px;
+                }
+
+                &:hover {
+                    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.205);
                 }
             }
         }
@@ -47,7 +59,7 @@
 
 // responsive 
 
-@include custom_max(1200px) {
+@include custom_max(992px) {
 
     .service {
 
@@ -55,24 +67,30 @@
         
     
         .service-hero {
-            
-            flex-direction: column;
-    
-            .hero-service-content {
-                width: 100%;
     
     
-            }
+    
     
             .hero-service-collection {
-                width: 100%;
+                margin-top: 20px;
+                
     
                 .service-item {
-                    width: 90%;
-                    margin: 20px;
+                    width: calc((100% / 2) - 20px);
                    
+                    
     
-                   
+                    h6 {
+    
+                        font-size: 35px;
+    
+    
+                       
+                    }
+    
+                    
+    
+                  
                 }
             }
     
@@ -82,6 +100,7 @@
         }
     }
     
+
 
 }
 
@@ -94,24 +113,30 @@
         
     
         .service-hero {
-            
-            flex-direction: column;
-    
-            .hero-service-content {
-                width: 100%;
     
     
-            }
+    
     
             .hero-service-collection {
-                width: 100%;
+                margin-top: 20px;
+                justify-content: center;
     
                 .service-item {
-                    width: 100%;
+                    width: calc((100% / 1) - 20px);
                    
-                   
+                    
     
-                   
+                    h6 {
+    
+                        font-size: 35px;
+    
+    
+                       
+                    }
+    
+                    
+    
+                  
                 }
             }
     
@@ -121,5 +146,6 @@
         }
     }
     
+
 
 }

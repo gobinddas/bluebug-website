@@ -28,25 +28,12 @@ $co        =    "BlueBug Software";
 
     <!-- FontAwesome version 6.5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <!-- Simple Line Icons -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
-
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <!-- Slick Slider -->
-    <link rel="stylesheet" href="css/slick.min.css">
-
-
-    <!-- Custom Style -->
+    <!-- custom css  -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico">
-    <style>
-
-    </style>
+   
 
 
 </head>
@@ -85,17 +72,17 @@ $co        =    "BlueBug Software";
                                     <a href="about" class="nav-link">About Us</a>
                                 </li>
 
-                                <li class="nav-item <?php if ($page == 'service') {
+                                <!-- <li class="nav-item <?php if ($page == 'service') {
                                                         echo 'active';
                                                     } ?>">
                                     <a href="service" class="nav-link">Our Services</a>
-                                </li>
+                                </li> -->
 
-                                <li class="nav-item <?php if ($page == 'portfolio') {
+                                <!-- <li class="nav-item <?php if ($page == 'portfolio') {
                                                         echo 'active';
                                                     } ?>">
                                     <a href="portfolio" class="nav-link">Portfolio</a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item <?php if ($page == 'carrier') {
                                                         echo 'active';
                                                     } ?>">
