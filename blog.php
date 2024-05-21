@@ -16,14 +16,7 @@ include 'includes/header.php'; ?>
     <div class="container">
 
         <div class="top-articles">
-
-            <div class="articles-items">
-                <div class="articles-img"><img src="./images/article1.jpg" alt=""></div>
-                <div class="articles-content">
-                    <h2 class="common-heading">AI Transforming Education Landscape</h2>
-                    <p class="common-description">AI is revolutionizing education by leveraging personalized learning, automating administrative tasks, and enabling adaptive teaching methods. With AI, education becomes more accessible, flexible, and tailored to individual needs, breaking traditional barriers and fostering a collaborative, innovative learning environment. The integration of AI promises to reshape the future of education, empowering learners and educators alike to thrive in a rapidly evolving knowledge-driven society.</p>
-                </div>
-            </div>
+       
             <div class="articles-items">
                 <div class="articles-img"><img src="./images/article2.jpg" alt=""></div>
                 <div class="articles-content">
@@ -44,17 +37,62 @@ include 'includes/header.php'; ?>
         <div class="blog-part">
             <h4 class="common-sub-heading">Blog</h4>
             <h2 class="common-heading">Latest Insights from Bluebug Software</h2>
-            <p class="common-description">Explore cutting-edge trends, tech tips, and company updates from Bluebug Software, your trusted IT solutions partner.</p>
-            <div class="blog-collection">
+            <p class="common-description">Explore cutting-edge trends, tech tips, and company updates from Bluebug Software.</p>
+            <div class="blog-collection row">
+            <?php
+                if(isset($_GET['page'])){
+                  $page = $_GET['page'];
+                  }
+                  else{
+                      $page = 1;
+                  }
+                  
+                  $offset = ($page - 1) * 5;
+                    
+                    // create a sql query to get all data
+                    $sql = "SELECT * FROM blogs LIMIT $offset, 9";
+                    $sql2 = "SELECT * FROM blogs";
 
-                <div class="blog-item">
-                    <img src="./images/blog1.png" alt="">
-                    <p class="date">2024/10/1</p>
-                    <a class="common-overview-title ">Blog Blog One</a>
-                    <p class="common-overview-description ">Tailored applications to streamline
-                        operations and enhance productivity.</p>
+                    $res = mysqli_query($conn, $sql);
+                    $res2 = mysqli_query($conn, $sql2);
+
+                    $count = mysqli_num_rows($res2);
+                    $rowsPerPage = 5;
+                    $total = ceil($count / $rowsPerPage);
+                    
+                    $sn=1;
+                    if($count>0)
+                    {
+                      
+                        while($row=mysqli_fetch_assoc($res))
+                        {
+                            $id = $row['id'];
+                            $title = $row['title'];
+                            $blogImage = $row['image'];
+                            $content = $row['content'];
+                            $Created_at = $row['created_on'];
+                            ?>
+                <div class="blog-item col-md-4 mb-3" >
+                    <a href="<?php echo SITEURL;?>blogpost?id=<?php echo $id ?>">
+                    <img src="<?php echo SITEURL; ?>admin/blog/img/<?php echo $blogImage ?>" alt="">
+                    <p class="date"><?php echo $Created_at; ?></p>
+                    <a href="<?php echo SITEURL;?>blogpost?id=<?php echo $id ?>" class="common-overview-title "><?php echo $title; ?></a>
+                    <div class="content"style="display: -webkit-box;    -webkit-line-clamp: 3;    -webkit-box-orient: vertical;    overflow: hidden;">
+
+                        <p class="common-overview-description "><?php echo $content; ?></p>
+                    </div>
+                    <a href="<?php echo SITEURL;?>blogpost?id=<?php echo $id ?>"style="color: #069FCE;" >Read more.</a></a>
                 </div>
-                <div class="blog-item">
+                <?php
+                        }
+                    }
+                    else
+                    {
+                        echo "ERROR";
+                    }
+
+                    ?>
+                <!-- <div class="blog-item">
                     <img src="./images/blog1.png" alt="">
                     <p class="date">2024/10/1</p>
                     <a class="common-overview-title ">Blog Blog two</a>
@@ -67,7 +105,7 @@ include 'includes/header.php'; ?>
                     <a class="common-overview-title ">Blog Blog three</a>
                     <p class="common-overview-description ">Tailored applications to streamline
                         operations and enhance productivity.</p>
-                </div>
+                </div> -->
 
             </div>
 

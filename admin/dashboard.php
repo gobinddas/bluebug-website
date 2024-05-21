@@ -5,7 +5,7 @@
 <div id="content" class="p-4 p-md-5 pt-5">
 
 <h2 class="mb-4">Bluebug Software</h2>
-<div class="mainblock">
+<div class="mainblock row col-6">
   <div class="block">
     <h1>
       Users
@@ -16,7 +16,7 @@
         $count = mysqli_num_rows($res);
                 
     ?><br>
-    <h4><?php echo $count;?></h4>
+    <h5><?php echo $count;?></h5>
   </div>
   <div class="block">
     <h1>
@@ -39,7 +39,7 @@
         $count = mysqli_num_rows($res);
                 
     ?><br>
-    <h4><?php echo $count;?></h4>
+    <h5><?php echo $count;?></h5>
   </div>
   <div class="block">
     <h2>
@@ -50,7 +50,7 @@
         $count = mysqli_num_rows($res);
                 
     ?><br>
-    <h4><?php echo $count;?></h4>
+    <h5><?php echo $count;?></h5>
   </div>
 </div>
 </div>

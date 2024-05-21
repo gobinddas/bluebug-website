@@ -8,7 +8,7 @@
   $fname=$index_user_data['firstname'];
 
   if($index_user_data == false){
-      header("Location: ../index.php");
+      header("Location: ../index");
   }
    ?>
    <!DOCTYPE html>
@@ -22,14 +22,11 @@
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <!-- Simple Line Icons -->
-    <link rel="stylesheet" href="../css/simple-line-icons.css">
+ 
 
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="../css/magnific-popup.css">
+ 
 
-    <!-- Slick Slider -->
-    <link rel="stylesheet" href="../css/slick.min.css">
+    
 
 
     <!-- Custom Style -->
@@ -50,7 +47,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

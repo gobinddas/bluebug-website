@@ -58,10 +58,10 @@
 
                     </ul>
                     <div class="social-link">
-                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                        <a href=""><i class="fa-brands fa-square-facebook"target="/blank"></i></a>
+                        <a href="https://www.instagram.com/bluebug.soft/" target="/blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"target="/blank"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok"target="/blank"></i></a>
                     </div>
                 </div>
             </div>
@@ -105,87 +105,7 @@
 <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 <!-- Custom Jquery-->
 <script type="text/javascript" src="js/main.js"></script>
-<script>
-    
-        $(document).ready(function () {
-          
-            
-            $('#phone').blur(function (e) {
-                
-                e.preventDefault();
 
-                const phone = $('#phone').val();
- 
-                if (phone === '') {
-                    $('#invalid_phone').text("Input Fields can not be Empty!!");
-                    $('#invalid_phone').css("color", "red");
-                    $('#submit').attr("disabled",true);
-                    return false;
-                }
-                else if (IsPhone(phone) === false) {
-                    $('#invalid_phone').text("Entered phone is not Valid!!");
-                    $('#invalid_phone').css("color", "red");
-                    $('#submit').attr("disabled",true);
-                    return false;
-                }
-                else{
-                    $('#invalid_phone').text("");
-                    $('#invalid_phone').css("color", "green");
-                    $('#submit').attr("disabled",false);
-                    return true;
-                }
-                return false;
- 
-            });
-            $('#email').blur(function (e) {
-                e.preventDefault();
-
-                const email = $('#email').val();
- 
-                if (email === '') {
-                    $('#invalid_email').text("Input Fields can not be Empty!!");
-                    $('#invalid_email').css("color", "red");
-                    $('#submit').attr("disabled",true);
-                    return false;
-                }
-                else if (IsEmail(email) === false) {
-                    $('#invalid_email').text("Entered Email is not Valid!!");
-                    $('#invalid_email').css("color", "red");
-                    $('#submit').attr("disabled",true);
-                    return false;
-                }
-                else{
-                    $('#invalid_email').text("");
-                    $('#invalid_email').css("color", "green");
-                    $('#submit').attr("disabled",false);
-                    return true;
-                }
-                return false;
-            });
-        });
- 
-
-        function IsPhone(phone) {
-            const regex =
-            /^(97|98)\d{8}$/;
-            if (!regex.test(phone)) {
-                return false;
-            }
-            else {
-                return true;
-            }
-        }
-        function IsEmail(email) {
-            const regex =
-/^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-            if (!regex.test(email)) {
-                return false;
-            }
-            else {
-                return true;
-            }
-        }
-    </script>
 </body>
 <!-- End of Body Section -->
 
