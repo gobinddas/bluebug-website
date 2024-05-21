@@ -4,7 +4,7 @@
 
         <div class="row">
             <div class="col-lg-4 col-md-6 ">
-                <div class="footer-block">
+                <div class="footer-block footer-content-block">
                     <div class="logo">
                         <img src="./images/logo.png" alt="">
                     </div>
@@ -24,8 +24,8 @@
                     <ul>
                         <li><a href="./">Home</a></li>
                         <li><a href="about">About Us</a></li>
-                        <li><a href="service">Our Services</a></li>
-                        <li><a href="portfolio">Portfolio</a></li>
+                        <li><a href="carrier">Carrier</a></li>
+                        <!-- <li><a href="portfolio">Portfolio</a></li> -->
                         <li><a href="blog">Blog</a></li>
                         <li><a href="contact">Contact Us</a></li>
                     </ul>
@@ -37,12 +37,12 @@
                     <h6 class="common-overview-title">Our Services</h6>
 
                     <ul>
-                        <li><a href="./">Software Development</a></li>
-                        <li><a href="about">Website Development</a></li>
-                        <li><a href="service">App Development</a></li>
-                        <li><a href="portfolio">Search Engine Optimizeing</a></li>
-                        <li><a href="blog">Social Media Marketing</a></li>
-                        <li><a href="contact">Digital Marketing</a></li>
+                        <li><a>Software Development</a></li>
+                        <li><a >Mobile App Development</a></li>
+                        <li><a >Website Development</a></li>
+                        <li><a >UI/UX Design</a></li>
+                        <li><a>SEO</a></li>
+                        <li><a >Social Media Marketing</a></li>
                     </ul>
                 </div>
             </div>
@@ -100,9 +100,7 @@
 <!-- boostrap  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<!-- Jquery Plugins-->
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
 <!-- Custom Jquery-->
 <script type="text/javascript" src="js/main.js"></script>
 </body>

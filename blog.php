@@ -26,13 +26,7 @@ include 'includes/header.php'; ?>
                     <p class="common-description"> To rapidly learn a programming language, focus on fundamentals, set clear goals, practice consistently, leverage interactive resources like tutorials and coding challenges, seek guidance from experienced mentors, collaborate on projects, and stay persistent. Embrace a growth mindset, break down complex concepts into manageable chunks, and regularly review and reinforce your understanding. By immersing yourself in coding tasks and embracing continuous learning, you can swiftly master programming languages and become a proficient developer.</p>
                 </div>
             </div>
-            <div class="articles-items">
-                <div class="articles-img"><img src="./images/article3.jpg" alt=""></div>
-                <div class="articles-content">
-                    <h2 class="common-heading">E-commerce Thriving: Entering New Era</h2>
-                    <p class="common-description">E-commerce is experiencing unprecedented growth, propelled by technological advancements, changing consumer behaviors, and global market expansion. The rise of mobile shopping, AI-driven personalization, AR/VR integration, and omnichannel experiences are reshaping the industry. Additionally, the COVID-19 pandemic accelerated the shift towards online shopping, leading to increased digitalization and innovation in logistics and supply chain management. As e-commerce enters a new phase, businesses must adapt to evolving trends and leverage emerging technologies to stay competitive in the dynamic marketplace.</p>
-                </div>
-            </div>
+            
 
         </div>
 

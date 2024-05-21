@@ -1,6 +1,7 @@
 footer {
-    // background-color: aquamarine;
-
+.footer-content-block{
+    padding-right: 70px;
+}
     .footer-block {
         .logo {
             margin-bottom: 20px;
@@ -158,4 +159,10 @@ footer {
 
 @include custom_max(767px) {}
 
-@include custom_max(420px) {}
+@include custom_max(576px) {
+    footer {
+        .footer-content-block{
+            padding-right: 0px;
+        }
+    }
+}
