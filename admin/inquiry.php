@@ -7,9 +7,9 @@
     }
 </style>
 <!-- Page Content  -->
-<div id="content" class="p-4 p-md-5 pt-5">
-
-<h2 class="mb-4">Bluebug Software: Inquiries</h2>
+<div id="content" class="dashboard ">
+<div class="container">
+<h2 class="mb-4 common-heading">Bluebug Software: Inquiries</h2>
 <div class="main-panel">
 <div class="content-wrapper">
           <div class="table-responsive">
@@ -131,10 +131,7 @@
         </div>
 
 </div>
+</div>
 
-<script src="sidebar/js/jquery.min.js"></script>
-<script src="sidebar/js/popper.js"></script>
-<script src="sidebar/js/bootstrap.min.js"></script>
-<script src="sidebar/js/main.js"></script>
 </body>
 </html>

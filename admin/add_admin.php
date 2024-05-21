@@ -36,11 +36,11 @@
    
 ?>
 <!-- Page Content  -->
-<div id="content" class="p-4 p-md-5 pt-5">
+<div id="content" class="dashboard ">
 
 
 
-
+<div class="container">
   <h2 class="mb-4">Bluebug Software: Add Admin</h2>
   
           <form action="" method="POST" enctype="multipart/form-data">
@@ -50,7 +50,7 @@
               <input type="text" placeholder="Last name" name="lastname"required>
               
           
-          <select name="user_type" class="custom-select" style="width: 70%;">
+          <select name="user_type" class="custom-select" >
                 <option selected>Select User Type</option>
                 <option value="admin">Admin</option>
                 <option value="editor">Editor</option>
@@ -74,18 +74,8 @@
 
   </div>
 
-<script src="sidebar/js/jquery.min.js"></script>
-<script src="sidebar/js/popper.js"></script>
-<script src="sidebar/js/bootstrap.min.js"></script>
-<script src="sidebar/js/main.js"></script>
-<script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
-  <script>
-    ClassicEditor
-        .create( document.querySelector( '#editor' ) )
-        .catch( error => {
-            console.error( error );
-        } );
-  </script>
+  </div>
+
 </body>
 </html>
    

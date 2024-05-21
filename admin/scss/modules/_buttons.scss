@@ -1,0 +1,44 @@
+
+// dark button 
+.btn-dark {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 25px;
+  background-color: $secondaryColor;
+  color: $white;
+  border-radius: 80px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid $secondaryColor;
+  display: inline;
+  font-family: $inter;
+
+  &:hover {
+    background-color: transparent;
+    color: $secondaryColor;
+  }
+
+}
+
+
+
+// light button 
+.btn-light {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 35px;
+  background-color: $primaryColor;
+  color: $white;
+  border-radius: 80px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid $primaryColor;
+  display: inline;
+  font-family: $inter;
+
+  &:hover {
+    background-color: transparent;
+    color: $primaryColor;
+  }
+
+}
+
+// break points 

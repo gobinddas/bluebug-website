@@ -1,0 +1,141 @@
+header {
+    position: fixed;
+
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $white;
+
+    .navbar {
+        padding: 15px 0px;
+
+        .navbar-brand {
+            width: 200px;
+        }
+
+        .navbar-toggler {
+            background-color: $white;
+            border-radius: 3px;
+            border: 1px solid $t-color;
+        }
+
+        .offcanvas {
+            .blur-hero {
+                display: none;
+            }
+
+            .offcanvas-header {
+                img {
+                    width: 180px;
+                }
+            }
+
+            .offcanvas-body {
+                justify-content: flex-end;
+
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            padding: 0 15px;
+                            color: $black;
+                            font-weight: 500;
+                            text-transform: capitalize;
+                            font-size: 16px;
+
+                            transition: 0.3s ease-in-out;
+
+                        }
+
+                        &.active,
+                        &:hover {
+                            .nav-link {
+                                color: $primaryColor;
+                            }
+                        }
+
+
+                    }
+                }
+
+                .nav-btn {
+                    margin-left: 40px;
+                }
+
+            }
+
+        }
+    }
+
+    &.fixed-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background-color: $white;
+        background-image: none;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.082);
+
+
+
+    }
+}
+
+// break points 
+
+@include custom_max(992px) {
+    header {
+
+
+        .navbar {
+            padding: 10px 0px;
+
+            .navbar-brand {
+                width: 180px;
+            }
+
+            .navbar-toggler {
+                border-radius: 10px;
+            }
+
+            .offcanvas {
+                .blur-hero {
+                    display: block;
+                }
+
+
+                .offcanvas-body {
+
+                    .navbar-nav {
+                        .nav-item {
+                            .nav-link {
+                                padding: 5px 10px;
+
+
+                            }
+
+
+
+                        }
+                    }
+
+                    .nav-btn {
+                        margin-left: 0px;
+                        margin-top: 30px;
+                    }
+
+                }
+
+            }
+        }
+
+
+    }
+
+
+}
+
+@include custom_max(767px) {}
+
+@include custom_max(576px) {}

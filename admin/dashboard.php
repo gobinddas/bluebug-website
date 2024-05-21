@@ -1,64 +1,63 @@
 <?php
- include('sidebar.php');
+include('sidebar.php');
 ?>
 <!-- Page Content  -->
-<div id="content" class="p-4 p-md-5 pt-5">
+<div id="content" class=" dashboard ">
 
-<h2 class="mb-4">Bluebug Software</h2>
-<div class="mainblock row col-6">
-  <div class="block">
-    <h1>
-      Users
-    </h1>
-    <?php
+  <div class="container">
+
+    <h2 class="mb-4 common-heading">Admin Dashboard</h2>
+    <div class="mainblock row col-6">
+      <div class="block">
+        <h4 class="common-heading" >
+          Users
+        </h4>
+        <?php
         $sql = "SELECT * FROM users";
         $res = mysqli_query($conn, $sql);
         $count = mysqli_num_rows($res);
-                
-    ?><br>
-    <h5><?php echo $count;?></h5>
-  </div>
-  <div class="block">
-    <h1>
-      Blogs
-    </h1>
-    <?php
+
+        ?><br>
+        <h5  class="common-overview-title "><?php echo $count; ?></h5>
+      </div>
+      <div class="block">
+        <h4 class="common-heading">
+          Blogs
+        </h4>
+        <?php
         $sql = "SELECT * FROM blogs";
         $res = mysqli_query($conn, $sql);
         $count = mysqli_num_rows($res);
-                
-    ?><br>
-    <h5><?php echo $count;?></h5>
+
+        ?><br>
+        <h5 class="common-overview-title "><?php echo $count; ?></h5>
+      </div>
+      <div class="block">
+        <h4 class="common-heading">
+          Inquiries
+        </h4><?php
+              $sql = "SELECT * FROM inquiries where status='processing'";
+              $res = mysqli_query($conn, $sql);
+              $count = mysqli_num_rows($res);
+
+              ?><br>
+        <h5 class="common-overview-title "><?php echo $count; ?></h5>
+      </div>
+      <div class="block">
+        <h4 class="common-heading">
+          Completed inquiries
+        </h4 ><?php
+              $sql = "SELECT * FROM inquiries where status='completed'";
+              $res = mysqli_query($conn, $sql);
+              $count = mysqli_num_rows($res);
+
+              ?><br>
+        <h5 class="common-overview-title "><?php echo $count; ?></h5>
+      </div>
+    </div>
   </div>
-  <div class="block">
-    <h1>
-      Inquiries
-    </h1><?php
-        $sql = "SELECT * FROM inquiries where status='processing'";
-        $res = mysqli_query($conn, $sql);
-        $count = mysqli_num_rows($res);
-                
-    ?><br>
-    <h5><?php echo $count;?></h5>
-  </div>
-  <div class="block">
-    <h2>
-      Completed inquiries
-    </h2><?php
-        $sql = "SELECT * FROM inquiries where status='completed'";
-        $res = mysqli_query($conn, $sql);
-        $count = mysqli_num_rows($res);
-                
-    ?><br>
-    <h5><?php echo $count;?></h5>
-  </div>
-</div>
-</div>
 </div>
 
-<script src="sidebar/js/jquery.min.js"></script>
-<script src="sidebar/js/popper.js"></script>
-<script src="sidebar/js/bootstrap.min.js"></script>
-<script src="sidebar/js/main.js"></script>
 </body>
+
 </html>

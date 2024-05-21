@@ -79,12 +79,12 @@
 ?>
 
 <!-- Page Content  -->
-<div id="content" class="p-4 p-md-5 pt-5">
+<div id="content" class=" dashboard">
 
 
+<div class="container">
 
-
-  <h2 class="mb-4">Bluebug Software: Add Blog</h2>
+  <h2 class="mb-4 common-heading">Bluebug Software: Add Blog</h2>
   
           <form action="" method="POST" enctype="multipart/form-data">
               <input type="text" placeholder="Title" name="title"  required> <br>
@@ -92,12 +92,12 @@
               <label for="file">Select a image</label><br>
               
               <div class="upload-btn-wrapper">
-              <button class="inpbtn">Upload a image</button>
+          
                 <input type="file" name="blogImage" class="inputfile" required>
               </div>
               <br>
               
-                <textarea id="editor" placeholder="Write your blog post here..." rows="8"  name="blogContent"></textarea><br>
+                <textarea id="editor" placeholder="Write your blog post here..." rows="80" name="blogContent"></textarea><br>
               
   
               
@@ -116,11 +116,8 @@
  
 
   </div>
+  </div>
 
-<script src="sidebar/js/jquery.min.js"></script>
-<script src="sidebar/js/popper.js"></script>
-<script src="sidebar/js/bootstrap.min.js"></script>
-<script src="sidebar/js/main.js"></script>
 <script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
   <script>
     ClassicEditor
