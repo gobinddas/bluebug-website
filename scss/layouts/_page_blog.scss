@@ -7,11 +7,12 @@
     }
 
     .top-articles {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 20px;
-flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
         .articles-items {
             position: relative;
             width: calc((100% / 2) - 20px);
@@ -51,13 +52,19 @@ flex-wrap: wrap;
             .articles-content {
                 position: relative;
                 z-index: 9;
-
-                .common-heading,
-                .common-description {
-                    // text-align: center;
+                .common-heading{
                     color: $white;
-                }
 
+                }
+                .content{
+                    p,h1,h2,h3,h4,h5,h6,b,strong,i{
+                        color: $white;
+                        margin-top: 15px;
+                        font-size: 18px;
+                    }
+                    
+                }
+                
             }
         }
     }
@@ -98,6 +105,7 @@ flex-wrap: wrap;
                 .common-overview-title {
                     padding: 10px 0px;
                 }
+                
 
                 &:hover {
                     img {
@@ -119,54 +127,55 @@ flex-wrap: wrap;
 
     .blog-page {
 
-       
-    
-       
+
+
+
         .top-articles {
-    
+
             .articles-items {
                 width: calc((100% / 1) - 20px);
 
                 padding: 20px;
                 border-radius: 20px;
-             
-    
-             
-    
-              
-    
+
+
+
+
+
+
                 .articles-content {
                     position: relative;
                     z-index: 9;
-    
+
                     .common-heading,
                     .common-description {
                         // text-align: center;
                         color: $white;
                     }
-    
+
                 }
             }
         }
-    
+
         .blog-part {
             margin-top: 30px;
-    
+
             .blog-collection {
                 padding-top: 30px;
-               flex-wrap: wrap;
-    
+                flex-wrap: wrap;
+
                 .blog-item {
                     flex-basis: 100%;
-                    
-    margin-bottom: 20px;
+
+                    margin-bottom: 20px;
+
                     img {
                         width: 100%;
                         height: 230px;
                         object-fit: cover;
                         border-radius: 20px;
                     }
-    
+
                     .date {
                         color: $secondaryColor;
                         margin-top: 10px;
@@ -174,11 +183,11 @@ flex-wrap: wrap;
                         border-bottom: 2px solid $secondaryColor;
                         display: inline;
                     }
-    
+
                     .common-overview-title {
                         padding: 10px 0px;
                     }
-    
+
                     &:hover {
                         img {
                             scale: 1.01;
@@ -187,11 +196,11 @@ flex-wrap: wrap;
                 }
             }
         }
-    
-    
-    
+
+
+
     }
-    
+
 
 }
 
