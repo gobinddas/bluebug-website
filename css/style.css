@@ -885,6 +885,10 @@ footer .footer-block .social-link a:hover i {
 .about-page .hero-about-page .hero-about-page-image {
   width: 30%;
 }
+.about-page .hero-about-page .logoimg {
+  width: 20%;
+  margin-top: 40px;
+}
 .about-page .small-title {
   font-weight: 700;
   color: #2C353A;
@@ -909,6 +913,10 @@ footer .footer-block .social-link a:hover i {
   .about-page .hero-about-page .hero-about-page-image {
     width: 100%;
     text-align: center !important;
+  }
+  .about-page .hero-about-page .logoimg {
+    width: 70%;
+    margin-top: 10px;
   }
   .about-page .hero-about-page .hidden-img {
     display: none;
@@ -980,12 +988,11 @@ footer .footer-block .social-link a:hover i {
   padding-top: 50px;
   padding-bottom: 10px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 0px 10px;
+  gap: 20px;
 }
 .blog-page .blog-part .blog-collection .blog-item {
-  flex-basis: 32%;
+  width: calc(33.3333333333% - 20px);
   border-radius: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.123);
   padding: 20px;
@@ -1033,8 +1040,8 @@ footer .footer-block .social-link a:hover i {
     flex-wrap: wrap;
   }
   .blog-page .blog-part .blog-collection .blog-item {
-    flex-basis: 100%;
-    margin-bottom: 20px;
+    width: 100%;
+    margin: 0px 10px;
   }
   .blog-page .blog-part .blog-collection .blog-item img {
     width: 100%;
@@ -1113,6 +1120,27 @@ footer .footer-block .social-link a:hover i {
     height: 35vh;
   }
 }
+.career {
+  padding: 100px 0px 60px 0px;
+}
+.career .blur-hero {
+  top: 30%;
+}
+.career .hero-career .hero-baner-content {
+  margin: 20px 0px;
+}
+.career .hero-career .hero-baner-content .baner-title {
+  font-size: 58px;
+}
+.career .hero-career .hero-baner-content .baner-title span {
+  color: #069FCE;
+}
+.career .hero-career .hero-baner-content p a {
+  display: inline;
+  color: #069FCE;
+  font-weight: 700;
+}
+
 .page-contact {
   padding: 100px 0px 0px 0px;
 }

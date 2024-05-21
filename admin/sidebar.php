@@ -34,7 +34,7 @@ if ($index_user_data == false) {
   <link rel="stylesheet" href="sidebar.css">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="shortcut icon" href="../images/favicon.ico">
   <style>
 
   </style>
@@ -50,7 +50,7 @@ if ($index_user_data == false) {
 
             <nav class="navbar  navbar-expand-lg">
                 <div class="container-fluid ">
-                    <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+                    <a class="navbar-brand" href="dashboard"><img src="../images/logo.png" alt=""></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

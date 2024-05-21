@@ -7,7 +7,7 @@
 
             <div class="hero-about-content">
                 <h4 class="common-sub-heading">Our Expertise</h4>
-                <h2 class="common-heading">Explore Our Diverse Projects</h2>
+                <h2 class="common-heading"data-aos="fade-right">Explore Our Diverse Projects</h2>
 
 
             </div>

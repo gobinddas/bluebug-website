@@ -24,7 +24,7 @@
                     <ul>
                         <li><a href="./">Home</a></li>
                         <li><a href="about">About Us</a></li>
-                        <li><a href="carrier">Carrier</a></li>
+                        <li><a href="career">Career</a></li>
                         <!-- <li><a href="portfolio">Portfolio</a></li> -->
                         <li><a href="blog">Blog</a></li>
                         <li><a href="contact">Contact Us</a></li>
@@ -58,9 +58,9 @@
 
                     </ul>
                     <div class="social-link">
-                        <a href=""><i class="fa-brands fa-square-facebook"target="/blank"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61560114532157"><i class="fa-brands fa-square-facebook"target="/blank"></i></a>
                         <a href="https://www.instagram.com/bluebug.soft/" target="/blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"target="/blank"></i></a>
+                        <a href="https://www.linkedin.com/company/bluebug-software/"><i class="fa-brands fa-linkedin"target="/blank"></i></a>
                         <a href=""><i class="fa-brands fa-tiktok"target="/blank"></i></a>
                     </div>
                 </div>
@@ -103,6 +103,10 @@
 
 <!-- Custom Jquery-->
 <script type="text/javascript" src="js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 <!-- End of Body Section -->

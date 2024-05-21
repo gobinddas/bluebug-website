@@ -6,7 +6,7 @@
         <div class="service-hero">
             <div class="hero-service-content">
                 <h4 class="common-sub-heading">Our services</h4>
-                <h2 class="common-heading">Our top value categories for you.</h2>
+                <h2 class="common-heading"data-aos="fade-right">Our top value categories for you.</h2>
 
 
 

@@ -96,7 +96,7 @@ include 'includes/header.php'; ?>
                         $content = $row['content'];
                         $Created_at = $row['created_on'];
                 ?>
-                        <div class="blog-item col-md-4 mb-3" style="height: 60vh;">
+                        <div class="blog-item col-md-4 mb-3" >
                             <a href="<?php echo SITEURL; ?>blogpost?id=<?php echo $id ?>">
                                 <img src="<?php echo SITEURL; ?>admin/blog/img/<?php echo $blogImage ?>" alt="">
                                 <p class="date"><?php echo $Created_at; ?></p>

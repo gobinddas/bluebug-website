@@ -1,0 +1,44 @@
+.career {
+   
+    padding: 100px 0px 60px 0px;
+
+  .blur-hero{
+    top: 30%;
+//   left: -30%;
+  }
+    .hero-career {
+       
+
+        .hero-baner-content {
+            margin: 20px 0px;
+            .baner-title{
+                font-size: 58px;
+                span{
+                    color: $primaryColor;
+                }
+            }
+
+            p{
+                a{
+                    display: inline;
+                    color: $primaryColor;
+                    font-weight: 700;
+                }
+            }
+        }
+
+       
+    }
+}
+
+
+
+// responsive 
+@include custom_max(992px) {
+   
+}
+
+
+@include custom_max(576px) {
+   
+}   

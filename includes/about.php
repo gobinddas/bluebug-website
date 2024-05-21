@@ -9,7 +9,7 @@
             </div>
             <div class="hero-about-content">
                 <h4 class="common-sub-heading">About Us</h4>
-                <h2 class="common-heading">Innovate. Integrate. Inspire.</h2>
+                <h2 class="common-heading"data-aos="fade-left">Innovate. Integrate. Inspire.</h2>
                 <p class="common-description">We're BlueBug Soft, a team of passionate developers dedicated to craft, innovate and provide complete software and web solutions for the excellence of tomorrow.</p>
 
                 <div class="about-overview row justify-content-around ">

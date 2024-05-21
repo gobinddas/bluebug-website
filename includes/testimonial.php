@@ -6,7 +6,7 @@
         <div class="testimonial-hero">
             <div class="hero-testimonial-content">
                 <h4 class="common-sub-heading">Testimonials</h4>
-                <h2 class="common-heading">Trust our clients</h2>
+                <h2 class="common-heading"data-aos="fade-right">Trust our clients</h2>
                 <p class="common-description">Bluebug just dont develop software, we develop your vision and ideas into reality for your ideal software.</p>
 
 
@@ -15,25 +15,25 @@
             <div class="hero-testimonial-collection  ">
                 <div class="testimonial-item ">
                     <div class="testimonial-info">
-                        <p class="common-overview-description ">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae lorem sed purus elementum pellentesque. Vestibulum aliquam orci vel nunc dignissim ullamcorper. “</p>
-                        <h2 class="common-overview-title ">Client Name</h2>
+                        <p class="common-overview-description ">“ Bluebug Software's comprehensive services helped my startup flourish. Professionalism at its best! “</p>
+                        <h2 class="common-overview-title ">Priya Shrestha</h2>
                     </div>
-                    <img src="./images/client.png" alt="">
+                    <img src="./images/priya.jpg" alt="">
                 </div>
                 <div class="testimonial-item  left">
-                <img src="./images/client.png" alt="">
+                <img src="./images/arav.jpg" alt="">
 
                     <div class="testimonial-info">
-                        <p class="common-overview-description ">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae lorem sed purus elementum pellentesque. Vestibulum aliquam orci vel nunc dignissim ullamcorper. “</p>
-                        <h2 class="common-overview-title text-right ">Client Name</h2>
+                        <p class="common-overview-description ">“ Bluebug Software's software solutions streamlined our operations. Excellent service for startups in Nepal! “</p>
+                        <h2 class="common-overview-title text-right ">Aarav Joshi</h2>
                     </div>
                 </div>
                 <div class="testimonial-item ">
                     <div class="testimonial-info">
-                        <p class="common-overview-description ">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae lorem sed purus elementum pellentesque. Vestibulum aliquam orci vel nunc dignissim ullamcorper. “</p>
-                        <h2 class="common-overview-title ">Client Name</h2>
+                        <p class="common-overview-description ">“ The UI/UX and website developed by Bluebug is top-notch. Higly recommend their service. “</p>
+                        <h2 class="common-overview-title ">Rajan Pokharel</h2>
                     </div>
-                    <img src="./images/client.png" alt="">
+                    <img src="./images/rajan.jpg" alt="">
                 </div>
 
             </div>

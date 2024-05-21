@@ -5,9 +5,9 @@
 
 <?php
 
-$phone     =     "9808740455";
-$email     =     "gobind98077@gmial.com";
-$add    =     "Chabahil, kathmandu";
+$phone     =     "9829303050";
+$email     =     "info@bluebugsoft.com";
+$add    =     "Akashedhara, Kathmandu";
 $co        =    "BlueBug Software";
 
 ?>
@@ -33,6 +33,7 @@ $co        =    "BlueBug Software";
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
 
 
@@ -86,7 +87,7 @@ $co        =    "BlueBug Software";
                                 <li class="nav-item <?php if ($page == 'carrier') {
                                                         echo 'active';
                                                     } ?>">
-                                    <a href="carrier" class="nav-link">Carrier</a>
+                                    <a href="career" class="nav-link">Career</a>
                                 </li>
 
                                 <li class="nav-item <?php if ($page == 'Blogs') {

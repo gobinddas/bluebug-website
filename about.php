@@ -23,7 +23,7 @@
                 <p class="common-description">BlueBug Software crafts software, websites, and marketing solutions to enhance your business and boost success effortlessly.</p>
 
             </div>
-            <div class="hero-about-page-image text-right">
+            <div class="hero-about-page-image text-right logoimg">
                 <img src="./images/aboutPage1.png" alt="">
             </div>
         </div>
