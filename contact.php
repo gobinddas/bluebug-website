@@ -58,7 +58,7 @@
                     <input type="tel" id="phone" class="common-overview-description" name="phone" placeholder="+977 9808740455"maxlength="10"pattern="[0-9]{10}"><br><p class="error"id="invalid_phone"> </p>
                     <label for="message" class="common-overview-title">Whats your idea?</label><br>
                     <textarea name="message" rows="2" id="message" class="common-overview-description" placeholder="Tell us more about your project"></textarea>
-                   <button class="btn-light">Let’s Start</button>
+                   <button class="btn-light" id="submit">Let’s Start</button>
                 </form>
             </div>
 

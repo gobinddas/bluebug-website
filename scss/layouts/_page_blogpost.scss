@@ -8,11 +8,12 @@
 
 
 .container{
-    width: 60%;
+    width: 100%;
 
     .articles-items {
 
-        width: 100%;
+        width: 60%;
+        margin: auto;
 
         .articles-img {
             width: 100%;
@@ -101,38 +102,23 @@
 
 
 @include custom_max(576px) {
+    .blogpost-page{
 
-
-    .blogpost-page {
+        .container{
+            .articles-items{
+                width: 100%;
+                .articles-img{
+                    height: 35vh;
+                }
+            }
+        }
+    }
 
     
 
-        
-
-
-
-        .articles-items {
-
-            width: 100%;
-
-            .articles-img {
-                
-                height: 35vh;
-                
-
-
-               
-            }
-
-           
-
-
-        }
 
 
 
 
-
-    }
 
 }

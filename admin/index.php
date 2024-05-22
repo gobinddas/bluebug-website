@@ -83,7 +83,7 @@
 Admin Login
 </span>
                     <div class="wrap-input100 " data-validate="Valid email is required: ex@abc.xyz">
-                        <input class="input100" type="text" name="email" placeholder="Email">
+                        <input id="email" class="input100" type="text" name="email" placeholder="Email"><p class="error"id="invalid_email">
                         <span class="focus-input100"></span>
                         <span class="symbol-input100">
 
@@ -96,7 +96,7 @@ Admin Login
 </span>
                     </div>
                     <div class="container-login100-form-btn">
-                        <button class="login100-form-btn">
+                        <button id="submit" class="login100-form-btn" disabled>
 Login
 </button>
                     

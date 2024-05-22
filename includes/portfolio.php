@@ -25,7 +25,7 @@
                 <p class="common-overview-description ">Tailored applications to streamline
                     operations and enhance productivity.</p>
             </div>
-            <div class="portfolio-item"style="height: 55vh;">
+            <div class="portfolio-item">
                 <img src="./images/businessweb.png" alt="">
                 <h2 class="common-overview-title ">Tailored Business website and software</h2>
                 <p class="common-overview-description ">Tailored applications to streamline

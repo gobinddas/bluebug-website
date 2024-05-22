@@ -37,7 +37,7 @@ include 'includes/header.php'; ?>
                     $title = $row['title'];
                     $blogImage = $row['image'];
                     $content = $row['content'];
-                    $Created_at = $row['created_on'];
+                    $Created_at = date($row['created_on']);
             ?>
                     <div class="articles-items" style="height: 35vh;">
                     <a href="<?php echo SITEURL; ?>blogpost?id=<?php echo $id ?>">
@@ -94,13 +94,17 @@ include 'includes/header.php'; ?>
                         $title = $row['title'];
                         $blogImage = $row['image'];
                         $content = $row['content'];
-                        $Created_at = $row['created_on'];
+                        
+                        $Created_at = date('Y-m-d', strtotime($row['created_on']));
                 ?>
                         <div class="blog-item col-md-4 mb-3" >
                             <a href="<?php echo SITEURL; ?>blogpost?id=<?php echo $id ?>">
                                 <img src="<?php echo SITEURL; ?>admin/blog/img/<?php echo $blogImage ?>" alt="">
                                 <p class="date"><?php echo $Created_at; ?></p>
-                                <a href="<?php echo SITEURL; ?>blogpost?id=<?php echo $id ?>" class="common-overview-title "><?php echo $title; ?></a>
+                                <a href="<?php echo SITEURL; ?>blogpost?id=<?php echo $id ?>" class="common-overview-title ">
+                                <div class="title"style="display: -webkit-box;    -webkit-line-clamp: 2;    -webkit-box-orient: vertical;    overflow: hidden;"><?php echo $title; ?></div>
+                                </a>
+
                                 <div class="content" style="display: -webkit-box;    -webkit-line-clamp: 3;    -webkit-box-orient: vertical;    overflow: hidden;">
 
                                     <p class="common-overview-description "><?php echo $content; ?></p>

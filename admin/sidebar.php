@@ -6,6 +6,7 @@ $index_user_data = index_loginval($conn);
 
 $user_id = $index_user_data['user_id'];
 $fname = $index_user_data['firstname'];
+$type = $index_user_data['user_type'];
 
 if ($index_user_data == false) {
   header("Location: ../index");
@@ -80,7 +81,9 @@ if ($index_user_data == false) {
               </ul>
 
             </li>
-            <li class="nav-item dropdown">
+            <?php
+            if($type=="admin"){
+              echo('<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Admins
               </a>
@@ -96,7 +99,16 @@ if ($index_user_data == false) {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="past_inquiries">Past Inquiries</a>
-            </li>
+            </li>');
+            }
+            else{
+              echo('<li class="nav-item">
+              <a class="nav-link" href="">'.$fname.'</a>
+            </li>');
+            }
+            
+            ?>
+            
 
             
 

@@ -152,6 +152,9 @@
                         // text-align: center;
                         color: $white;
                     }
+                    .content{
+                        -webkit-line-clamp: 5 !important;
+                    }
 
                 }
             }
@@ -165,7 +168,7 @@
                 flex-wrap: wrap;
 
                 .blog-item {
-                   width: 100%;
+                   width: 95%;
 margin: 0px 10px;
 
                     img {

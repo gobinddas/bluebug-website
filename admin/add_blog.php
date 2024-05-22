@@ -1,4 +1,5 @@
 <?php
+ob_start();
  include('sidebar.php');
 ?><?php 
  
@@ -12,11 +13,12 @@
   }
   if($_SERVER['REQUEST_METHOD'] == "POST")
     {
+      $mysqli = new mysqli('localhost','root', '', 'bluebug');
         // something was posted
         $title = $_POST['title'];
         $author = $_POST['author'];
-        $blogContent = $_POST['blogContent'];
-       
+        $blogContent = $mysqli -> real_escape_string($_POST['blogContent']);
+        
         
 
         
