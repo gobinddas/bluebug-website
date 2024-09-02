@@ -1,14 +1,13 @@
-
 <!doctype html>
 <html lang="en">
 
 
 <?php
 
-$phone     =     "9829303050";
-$email     =     "info@bluebugsoft.com";
-$add    =     "Akashedhara, Kathmandu";
-$co        =    "BlueBug Software";
+$phone     =     "9810039293";
+$email     =     "info@connectifisolutions.com";
+$add    =     "Kadaghari, Kathmandu";
+$co        =    "Connectifi Solutions";
 
 ?>
 
@@ -32,9 +31,9 @@ $co        =    "BlueBug Software";
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="shortcut icon" href="./images/favicon.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   
+
 
 
 </head>
@@ -53,7 +52,7 @@ $co        =    "BlueBug Software";
                     </button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
-                    <div class="blur-hero"></div>
+                        <div class="blur-hero"></div>
 
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png" alt=""></h5>
@@ -74,16 +73,27 @@ $co        =    "BlueBug Software";
                                 </li>
 
                                 <!-- <li class="nav-item <?php if ($page == 'service') {
-                                                        echo 'active';
-                                                    } ?>">
+                                                                echo 'active';
+                                                            } ?>">
                                     <a href="service" class="nav-link">Our Services</a>
                                 </li> -->
 
                                 <!-- <li class="nav-item <?php if ($page == 'portfolio') {
-                                                        echo 'active';
-                                                    } ?>">
+                                                                echo 'active';
+                                                            } ?>">
                                     <a href="portfolio" class="nav-link">Portfolio</a>
                                 </li> -->
+
+                                <li class="nav-item <?php if ($page == 'courses') {
+                                                        echo 'active';
+                                                    } ?>">
+                                    <a href="courses" class="nav-link">Courses</a>
+                                </li>
+                                <li class="nav-item <?php if ($page == 'courses_blog') {
+                                                        echo 'active';
+                                                    } ?>">
+                                    <a href="courses" class="nav-link">Courses Blog</a>
+                                </li>
                                 <li class="nav-item <?php if ($page == 'carrier') {
                                                         echo 'active';
                                                     } ?>">
@@ -95,16 +105,17 @@ $co        =    "BlueBug Software";
                                                     } ?>">
                                     <a href="blog" class="nav-link contact">Blogs</a>
                                 </li>
-                                
+
+
                             </ul>
                             <div class="nav-btn"><a class="btn-dark" href="contact">Contact Now</a></div>
 
                         </div>
                     </div>
-                  
+
                 </div>
             </nav>
-           
+
 
         </div>
     </header>
